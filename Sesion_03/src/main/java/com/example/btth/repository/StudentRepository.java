@@ -18,21 +18,13 @@ public class StudentRepository {
     public StudentRepository() {
         students = new ArrayList<>();
         // Khởi tạo danh sách 15 sinh viên với đầy đủ các thuộc tính để kiểm thử các chức năng
-        students.add(new Student(1, "Nguyen Tien Thanh", "B21DCCN001", "CNTT", 2021, 3.8, "Đang học"));
-        students.add(new Student(2, "Le Thi Hoa", "B20DCCN002", "CNTT", 2020, 3.2, "Đang học"));
-        students.add(new Student(3, "Tran Van Binh", "B19ATKM003", "ATTT", 2019, 2.5, "Bảo lưu"));
-        students.add(new Student(4, "Pham Tuan Anh", "B18DCCN004", "CNTT", 2018, 3.9, "Tốt nghiệp"));
-        students.add(new Student(5, "Vu Thi Mai", "B21PTIT005", "PTIT", 2021, 3.5, "Đang học"));
-        students.add(new Student(6, "Hoang Quang Hai", "B21DCCN006", "CNTT", 2021, 3.1, "Đang học"));
-        students.add(new Student(7, "Ngo Thi Lan", "B19MRKT007", "Qtkd", 2019, 2.8, "Tốt nghiệp"));
-        students.add(new Student(8, "Dang Viet Hoang", "B22DPT008", "DPT", 2022, 3.6, "Đang học"));
-        students.add(new Student(9, "Doan Tuan Kiet", "B20ATKM009", "ATTT", 2020, 1.9, "Bảo lưu"));
-        students.add(new Student(10, "Bui Thi Thu", "B21DCCN010", "CNTT", 2021, 3.95, "Đang học"));
-        students.add(new Student(11, "Phan Nhat Minh", "B18PTIT011", "PTIT", 2018, 3.4, "Tốt nghiệp"));
-        students.add(new Student(12, "Ly Gia Han", "B22Qtkd012", "Qtkd", 2022, 3.7, "Đang học"));
-        students.add(new Student(13, "Truong Quoc Bao", "B21DCCN013", "CNTT", 2021, 2.1, "Bảo lưu"));
-        students.add(new Student(14, "Vo Thi Xuan", "B20DPT014", "DPT", 2020, 3.0, "Đang học"));
-        students.add(new Student(15, "Dinh Van Truong", "B21ATKM015", "ATTT", 2021, 2.9, "Đang học"));
+       students.add(new Student(1, "Hoang Thien Son", "B21DCCN001", "CNTT", 2021, 3.8, "Đang học"));
+        students.add(new Student(2, "Ha Quang Huy", "B20DCCN002", "CNTT", 2020, 3.2, "Đang học"));
+        students.add(new Student(3, "Hoang Nguyen Duc", "B19ATKM003", "ATTT", 2019, 2.5, "Bảo lưu"));
+        students.add(new Student(4, "Trinh Khac Hung", "B18DCCN004", "CNTT", 2018, 3.9, "Tốt nghiệp"));
+        students.add(new Student(5, "Nguyen Hoang Nhat", "B21PTIT005", "PTIT", 2021, 3.5, "Đang học"));
+        students.add(new Student(6, "Doan Viet Anh", "B21DCCN006", "CNTT", 2021, 3.1, "Đang học"));
+
     }
 
     /**
